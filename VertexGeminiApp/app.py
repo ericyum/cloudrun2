@@ -10,7 +10,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Initialize Vertex AI
-PROJECT_ID = os.environ.get('PROJECT_ID', 'sesac-dev-400904')
+PROJECT_ID = os.environ.get('PROJECT_ID', 'sesac-ericyum9196')
 LOCATION = os.environ.get('LOCATION', 'us-central1')
 
 vertexai.init(project=PROJECT_ID, location=LOCATION)

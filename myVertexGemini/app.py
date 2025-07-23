@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 # Initialize Vertex AI
 # TODO: Replace with your actual project ID and location.
-PROJECT_ID = "sesac-dev-400904"
+PROJECT_ID = "sesac-ericyum9196"
 LOCATION = "us-central1"
 vertexai.init(project=PROJECT_ID, location=LOCATION)
 
